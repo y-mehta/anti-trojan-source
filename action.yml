@@ -1,0 +1,13 @@
+author: ''
+
+description: 'Detect trojan source attacks that employ unicode bidi attacks to inject malicious code'
+
+name: 'anti-trojan-source'
+
+branding:
+  icon: 'shield'
+  color: 'blue'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
